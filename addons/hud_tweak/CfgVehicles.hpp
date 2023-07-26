@@ -1,7 +1,7 @@
 
 class CfgVehicles {
     class All;
-    class AllVehicles {
+    class AllVehicles: All {
         class SPE_Veh_HudLayers {
             class Background {
                 x = QUOTE(0 * GUI_GRID_W + SPE_VEHICLE_X);
@@ -30,7 +30,9 @@ class CfgVehicles {
         };
     };
 
-    class Plane_Base_F;
+    class Air: AllVehicles {};
+    class Plane: Air {};
+    class Plane_Base_F: Plane {};
     class SPE_Plane_base: Plane_Base_F {
         class SPE_Veh_HudLayers: SPE_Veh_HudLayers {
             class Background;
