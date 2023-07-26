@@ -1,0 +1,17 @@
+name = "SPE Tank UI Adjust"
+author = "veteran29"
+prefix = "vetspetua"
+mainprefix = "z"
+
+[hemtt.launch]
+workshop = [
+    "450814997", # CBA_A3
+    "2369477168", # ADT
+]
+parameters = [
+    "-name=dev",
+    "-window",
+]
+dlc = [
+    "Spearhead 1944",
+]
