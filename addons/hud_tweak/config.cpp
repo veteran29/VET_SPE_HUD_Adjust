@@ -18,6 +18,7 @@ class CfgPatches {
 };
 
 class RscText;
+class RscVehicleToggles;
 
 #include "CfgUIGrids.hpp"
 #include "CfgVehicles.hpp"
